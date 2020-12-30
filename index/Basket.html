@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example Title</title>
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Example description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="/css/basketstyle.css">-->
+    <link rel="icon" type="image/x-icon" href="" />
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+
+    </main>
+
+    <div class="container">
+        <div class="row-mt4">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-10">
+                        <h3>Cart</h3>
+                    </div>
+
+                    <div class="col-2">
+                        <h3>Products</h3>
+                    </div>
+
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="products" class="re-container">
+                            <tr>
+                                <td class="heart">Nike</td>
+                                <td>Like</td>
+                                <td>110$</td>
+                                <td>
+                                    <button class="button-PLUS"> + </button>
+
+                                </td>
+                                <td>
+                                    <button class="button-REMOVE"> - </button>
+
+                                </td>
+                            </tr>
+
+                        </tbody>
+                        <tbody id="products">
+                            <tr>
+                                <td>Under Armour</td>
+                                <td>140$</td>
+                                <td>
+                                    <button class="button-PLUS"> + </button>
+
+                                </td>
+                                <td>
+                                    <button class="button-REMOVE"> - </button>
+
+                                </td>
+                            </tr>
+
+                        </tbody>
+                        <tbody id="products" </td>
+                            </tr>
+
+                        </tbody>
+
+                        <tbody id="products" style="animation: ">
+                            <tr>
+                                <td>Adidas</td>
+                                <td>90$</td>
+                                <td>
+                                    <button class="button-PLUS"> + </button>
+
+                                </td>
+                                <td>
+                                    <button class="button-REMOVE"> - </button>
+
+                                </td>
+                            </tr>
+
+                        </tbody>
+                        <tbody id="products" </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                    <b id="total-price">Total: 0$</b>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+
+
+    </footer>
+    <script>
+        const = products[
+
+            {
+
+                name: "Nike",
+                price: "110",
+            } {
+
+                name: "Under Armour",
+                price: "140",
+            } {
+
+                name: "Adidas",
+                price: "90",
+            }
+        ]
+
+        let cart = {
+            items: [],
+            totalPrice: 0,
+
+        }
+
+        function renderAllProducts() {
+
+            const productTable = document.getElementById("products"),
+                productTable.innerHTML = "",
+                products.forEach((product, index) => {
+                    productTable.innerHTML += '   <
+                    tr >
+
+                        <
+                        td > $ {
+                            products.name
+                        } <
+                        /td>  <
+                    td > $ {
+                            products.price
+                        } <
+                        /td>  <
+                    td >
+
+                        <
+                        button class = "btn btn-success" >
+
+                        ADD TO CART
+
+                        <
+                        /button>    
+
+
+                        <
+                        /tr>    
+                    '
+
+                })
+        }
+
+        renderAllProducts();
+
+    </script>
+</body>
+
+</html>
